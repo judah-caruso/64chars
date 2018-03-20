@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>64 Chars &mdash; Write concise notes.</title>
+	<link rel="stylesheet" type="text/css" href="dist/shortnote.min.css">
+</head>
+<body>
+	<main>
+		<header>
+			<h1>64 Chars &mdash; Write concise notes.</h1>
+			<h3 id="count">100 characters left...</h3>
+		</header>
+		<section class="newNotes">
+			<div>
+				<input type="text" id="noteBox" placeholder="New note...">
+				<input type="button" value="Add Note" id="addNoteButton">
+				<input type="button" value="Remove Note" id="removeNoteButton">
+				<input type="button" value="Clear List" id="clearListButton">
+			</div>
+		</section>
+		<section class="noteList">
+			<ul id="notes"></ul>
+		</section>
+	</main>
+	<script type="text/javascript" src="dist/main.js"></script>
+</body>
+</html>

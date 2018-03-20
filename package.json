@@ -1,0 +1,20 @@
+{
+  "name": "sass-autoprefixer-template",
+  "version": "0.2.0",
+  "description": "A template for sass + autoprefixer",
+  "main": "gruntfile.js",
+  "devDependencies": {
+    "autoprefixer": "^8.1.0",
+    "grunt": "^1.0.2",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.9.0",
+    "jquery": "^3.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Judah Caruso Rodriguez <judah@0px.moe> (http://0px.moe)",
+  "license": "MIT"
+}
